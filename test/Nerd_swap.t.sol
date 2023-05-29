@@ -23,8 +23,6 @@ contract NerdStakeTest is UniswapV2Deployer {
     IUniswapV2Pair public srPair;
 
     function setUp() public {
-        //uniswap = new UniswapV2Deployer();
-
         factory = new Factory{value: 1 ether}();
         nerd = Nerd(factory.nerd());
         nerdSR = IERC20(nerd.SR());
