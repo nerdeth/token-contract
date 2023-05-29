@@ -14,6 +14,7 @@ Project uses [Foundry](https://github.com/foundry-rs/foundry), install it first.
 
 ```
 git pull git@github.com:nerdeth/token-contract.git
+cd token-contract
 git submodule update --init --recursive
 forge test
 ```
